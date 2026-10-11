@@ -1,0 +1,14 @@
+receiver.name=Logitech receiver transparent relay (Leonardo)
+receiver.upload.protocol=avr109
+receiver.upload.maximum_size=28672
+receiver.upload.maximum_data_size=2560
+receiver.upload.speed=57600
+receiver.build.mcu=atmega32u4
+receiver.build.f_cpu=16000000L
+receiver.build.vid=0x046D
+receiver.build.pid=0xC54D
+receiver.build.usb_product="USB Receiver"
+receiver.build.board=AVR_LEONARDO
+receiver.build.core=bridge
+receiver.build.variant=leonardo
+receiver.build.extra_flags={build.usb_flags} -DLOGITECH_RELAY
